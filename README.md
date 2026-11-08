@@ -46,7 +46,7 @@ chatbot/
 
 ## Configuração da Chave da API do Gemini (Segurança no Git)
 
-A chave da API **não fica exposta no código-fonte**. O arquivo `.gitignore` já está configurado para ignorar `.env`, `.env.local` e variações, garantindo que sua chave nunca seja enviada ao GitHub.
+A chave da API **não fica exposta no código-fonte**. O arquivo `.gitignore` já está configurado para ignorar `.env`, `.env.local` e variações.
 
 ### Passo a passo para configurar:
 
