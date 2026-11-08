@@ -30,8 +30,14 @@ yarn-error.*
 .DS_Store
 *.pem
 
-# local env files
+# local env files (proteção da chave da API do Gemini para não subir no Git)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
 .env*.local
+!.env.example
 
 # typescript
 *.tsbuildinfo
